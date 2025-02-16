@@ -165,7 +165,7 @@ $(document).ready(function () {
       }
 
       // Redirect to dashboard
-      window.location.href = "http://127.0.0.1:5500/dashboard.html";
+      window.location.href ="https://supabase-real-time-and-authentication-or-profile-updationn.vercel.app/dashboard.html";
     } catch (err) {
       console.error("Catch Error:", err);
       // alert("Unexpected error occurred. Check console.");
@@ -224,7 +224,7 @@ $(document).ready(function () {
             timer: 1500,
           });
           localStorage.clear();
-          window.location.href = "http://127.0.0.1:5500/"; // Change to your login page
+          window.location.href = "https://supabase-real-time-and-authentication-or-profile-updationn.vercel.app/"; // Change to your login page
         }
       } else {
         alert("Logout canceled.");
