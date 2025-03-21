@@ -2,8 +2,8 @@ const { createClient } = supabase;
 
 // Create a single supabase client for interacting with your database
 const _supabase = createClient(
-  "https://ymwhxcrgumtzgadvfakv.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inltd2h4Y3JndW10emdhZHZmYWt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY0OTAxNDIsImV4cCI6MjA1MjA2NjE0Mn0.O0-DjhIFJ1OO76GapA81NSoKdm83L5vYasm5Jj-UiK0"
+  "enter supabase url",
+  "enter URL"
 );
 
 $(document).ready(function () {
